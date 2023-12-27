@@ -30,7 +30,7 @@ def MenuItemView(request):
         if request.method == "DELETE":
             return Response(status=status.HTTP_200_OK)
         if request.method == "PATCH":
-            return Response(status=status.HTTP_200_OK)  # ojo estas
+            return Response(status=status.HTTP_200_OK)  
         if request.method == "PUT":
             return Response(status=status.HTTP_200_OK)
 
